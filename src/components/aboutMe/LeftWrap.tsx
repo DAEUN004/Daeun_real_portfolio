@@ -1,7 +1,5 @@
 import tw from "tailwind-styled-components";
-import { useState } from "react";
 import myImgIm from '../../assets/images/daeun_memoji.webp';
-import myImgImOn from '../../assets/images/jieun_im2.webp';
 import TagText from "../atoms/tag/TagTxt";
 import { aboutMetags } from "../../data/content/aboutmeData";
 
