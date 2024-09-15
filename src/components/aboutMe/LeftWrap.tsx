@@ -38,16 +38,11 @@ const TagTextStyled = tw(TagText)`
 `;
 
 const LeftWrap = () => {
-  const [isImgChange, setIsImgChange] = useState(false);
-
-  const handelImgChange = () => {
-    setIsImgChange(prev => !prev)
-  };
-
   return (
     <LeftContainer>
       <FlexBox>
-        <Img src={isImgChange ? myImgImOn : myImgIm} loading='lazy' alt="이모지 이미지" />
+        {/* Choose either myImgIm or myImgImOn based on which image you want to display */}
+        <Img src={myImgIm} loading='lazy' alt="이모지 이미지" />
         <TagTxtWrap>
           {aboutMetags.map((tag, idx) => (
             <TagTextStyled key={idx} tag={tag.name} />

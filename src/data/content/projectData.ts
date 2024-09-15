@@ -1,4 +1,3 @@
-import { project1 } from './projecsDetailDatas/project1';
 import { project2 } from './projecsDetailDatas/project2';
 import { project4 } from './projecsDetailDatas/project4';
 import { project5 } from './projecsDetailDatas/project5';
