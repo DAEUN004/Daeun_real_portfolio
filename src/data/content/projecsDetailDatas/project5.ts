@@ -3,7 +3,7 @@ export const project5 = {
   pointcolor: 'before:bg-[#373737]',
   title: 'Real-Time Visual SLAM on Embedded Platforms',
   subtext:
-    "Developed an advanced image classification and segmentation system to differentiate between tumor and non-tumor images and precisely identify brain tumors from MRI scans.\n\n. This innovative solution accelerates tumor detection, significantly reducing diagnostic time and costs.\nBy streamlining the diagnostic process, it provides critical support during the 2024 South Korean doctors' strike, addressing the shortage of medical professionals and enhancing early cancer detection capabilities.\n\n Future work: To add more parts of the brain segmentations for better analysis and create 3D point cloud model.",
+  "Ongoing research focused on developing and refining a deep learning-based keypoint detector for real-time Visual SLAM, optimizing performance in adverse conditions such as low light and weather variations. This project is a part of my AI Master's work, aiming to advance visual localization technology for embedded platforms.",
   data: '2023.08 - Ongoing',
   team: 'AI Master Project',
   tag: ['Vi-SLAM', 'Keypoint Detection'],
