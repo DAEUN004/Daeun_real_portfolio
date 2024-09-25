@@ -25,7 +25,7 @@ export const RightWrap = tw.section`
   flex-col
   flex-2
   gap-60
-  pb-20
+  pb-40
 `
 
 function Contents() {
